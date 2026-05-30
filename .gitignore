@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# env files
+.env
+.env.local
+.env*.local
+
+# database
+prisma/dev.db
+prisma/dev.db-journal
+
+# generated
+src/generated/
+
+# misc
+.DS_Store
+*.pem
+
+# claude local settings
+.claude/settings.local.json
